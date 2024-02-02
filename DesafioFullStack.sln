@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioFullStack", "DesafioFullStack\DesafioFullStack.csproj", "{641CB106-21B4-4822-9ED1-055DE5E9F929}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - View", "0 - View", "{6AD626FF-FDD1-4DE5-A8C8-443CCC404E5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{B617FF19-D98F-431F-9FE7-D177FD57B803}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Businnes", "3 - Businnes", "{A3836B4E-E9BD-4024-BB9D-6CA54AC15B8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{1A0A060B-B40B-43A3-B68F-77BB2EA8EAB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{C6870EE9-5736-41E6-B753-7482506BF2F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioFullStack.Domain", "DesafioFullStack.Domain\DesafioFullStack.Domain.csproj", "{116B6118-BAD6-4220-BA8E-82626062184A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Impressora.Application", "Impressora.Application\Impressora.Application.csproj", "{36A40377-1A5B-47B1-BFB0-DA22C7062340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Celular.Application", "Celular.Application\Celular.Application.csproj", "{F6DD7837-CADA-41EF-87A9-754AD9124834}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{641CB106-21B4-4822-9ED1-055DE5E9F929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641CB106-21B4-4822-9ED1-055DE5E9F929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641CB106-21B4-4822-9ED1-055DE5E9F929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641CB106-21B4-4822-9ED1-055DE5E9F929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116B6118-BAD6-4220-BA8E-82626062184A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116B6118-BAD6-4220-BA8E-82626062184A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116B6118-BAD6-4220-BA8E-82626062184A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116B6118-BAD6-4220-BA8E-82626062184A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A40377-1A5B-47B1-BFB0-DA22C7062340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A40377-1A5B-47B1-BFB0-DA22C7062340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A40377-1A5B-47B1-BFB0-DA22C7062340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A40377-1A5B-47B1-BFB0-DA22C7062340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6DD7837-CADA-41EF-87A9-754AD9124834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6DD7837-CADA-41EF-87A9-754AD9124834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6DD7837-CADA-41EF-87A9-754AD9124834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6DD7837-CADA-41EF-87A9-754AD9124834}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{641CB106-21B4-4822-9ED1-055DE5E9F929} = {6AD626FF-FDD1-4DE5-A8C8-443CCC404E5B}
+		{116B6118-BAD6-4220-BA8E-82626062184A} = {C6870EE9-5736-41E6-B753-7482506BF2F4}
+		{36A40377-1A5B-47B1-BFB0-DA22C7062340} = {B617FF19-D98F-431F-9FE7-D177FD57B803}
+		{F6DD7837-CADA-41EF-87A9-754AD9124834} = {B617FF19-D98F-431F-9FE7-D177FD57B803}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32DA1232-4D32-47AC-80DE-737D4D29623C}
+	EndGlobalSection
+EndGlobal
