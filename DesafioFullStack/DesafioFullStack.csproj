@@ -6,4 +6,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Celular.Application\Celular.Application.csproj" />
+    <ProjectReference Include="..\Celular.Business\Celular.Business.csproj" />
+    <ProjectReference Include="..\Data.NHibernate\Data.NHibernate.csproj" />
+    <ProjectReference Include="..\DesafioFullStack.Domain\DesafioFullStack.Domain.csproj" />
+    <ProjectReference Include="..\Impressora.Application\Impressora.Application.csproj" />
+    <ProjectReference Include="..\Impressora.Business\Impressora.Business.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,7 +1,12 @@
+using DesafioFullStack.DI;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+ApplicationDI.RegisterServices(builder.Services);
+BusinessDI.RegisterServices(builder.Services);
+RepositoryDI.RegisterServices(builder.Services);
 
 
 var app = builder.Build();

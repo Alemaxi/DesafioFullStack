@@ -7,10 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Celular\Entity\" />
-    <Folder Include="Celular\DTO\" />
-    <Folder Include="Impressora\Entity\" />
-    <Folder Include="Impressora\DTO\" />
+    <Folder Include="DTO\Impressora\" />
+    <Folder Include="DTO\Celular\" />
   </ItemGroup>
 
 </Project>

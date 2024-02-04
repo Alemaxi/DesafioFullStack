@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DesafioFullStack.Domain\DesafioFullStack.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
