@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Impressora.Application
+namespace DesafioFullStack.Application.Implementations
 {
     public class ImpressoraApplication : IImpressoraApplication
     {

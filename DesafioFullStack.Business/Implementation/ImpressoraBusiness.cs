@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Impressora.Business
+namespace DesafioFullStack.Business.Implementation
 {
-    public class ImpressoraBusiness: IImpressoraBusiness
+    public class ImpressoraBusiness : IImpressoraBusiness
     {
     }
 }

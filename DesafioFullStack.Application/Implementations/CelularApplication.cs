@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Celular.Application
+namespace DesafioFullStack.Application.Implementations
 {
     public class CelularApplication : ICelularApplication
     {

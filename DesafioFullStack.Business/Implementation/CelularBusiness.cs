@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Celular.Business
+namespace DesafioFullStack.Business.Implementation
 {
     public class CelularBusiness : ICelularBusiness
     {
