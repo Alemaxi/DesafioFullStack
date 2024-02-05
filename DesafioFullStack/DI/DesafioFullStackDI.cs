@@ -19,20 +19,17 @@ namespace DesafioFullStack.DI
 
         static void RegisterApplications(IServiceCollection services)
         {
-            services.AddScoped<IImpressoraApplication, ImpressoraApplication>();
-            services.AddScoped<ICelularApplication, CelularApplication>();
+            services.AddScoped<IEquipamentoApplication, EquipamentoApplication>();
         }
 
         static void RegisterBusiness(IServiceCollection services)
         {
-            services.AddScoped<IImpressoraBusiness, ImpressoraBusiness>();
-            services.AddScoped<ICelularBusiness, CelularBusiness>();
+            services.AddScoped<IEquipamentoBusiness, EquipamentoBusiness>();
         }
 
         static void RegisterRepository(IServiceCollection services)
         {
-            services.AddScoped<IImpressoraRepository, ImpressoraRepository>();
-            services.AddScoped<ICelularRepository, CelularRepository>();
+            services.AddScoped<IEquipamentoRepository, EquipamentoRepository>();
         }
     }
 }

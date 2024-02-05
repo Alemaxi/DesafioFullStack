@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesafioFullStack.Domain.Business
+namespace DesafioFullStack.Domain.DTO.Equipamento
 {
-    public interface IImpressoraBusiness
+    public class EquipamentoDTO
     {
     }
 }

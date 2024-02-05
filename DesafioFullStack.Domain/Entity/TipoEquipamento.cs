@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesafioFullStack.Domain.Entity
 {
-    internal class Impressora
+    public class TipoEquipamento
     {
+        public int Id { get; set; }
+        public string? Nome { get; set; }
     }
 }

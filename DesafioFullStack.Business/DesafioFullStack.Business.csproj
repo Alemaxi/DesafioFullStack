@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Data.NHibernate\Data.NHibernate.csproj" />
     <ProjectReference Include="..\DesafioFullStack.Domain\DesafioFullStack.Domain.csproj" />
   </ItemGroup>
 
