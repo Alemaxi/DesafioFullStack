@@ -1,7 +1,7 @@
 ﻿using DesafioFullStack.Domain.Entity;
 using NHibernate;
-using NHibernate.Mapping.ByCode;
 using NHibernate.Mapping.ByCode.Conformist;
+using NHibernate.Mapping.ByCode;
 
 namespace Data.NHibernate.Mappings
 {
