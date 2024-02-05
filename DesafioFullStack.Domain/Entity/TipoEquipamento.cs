@@ -10,5 +10,6 @@ namespace DesafioFullStack.Domain.Entity
     {
         public int Id { get; set; }
         public string? Nome { get; set; }
+        public object Descricao { get; set; }
     }
 }
