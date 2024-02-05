@@ -1,8 +1,10 @@
+using Data.NHibernate.Config;
 using DesafioFullStack.DI;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+NHibernateExtensions.AddNHibernate(builder.Services, "Data Source=DesafioFullStack.db");
 builder.Services.AddControllersWithViews();
 DesafioFullStackDI.RegisterServices(builder.Services);
 

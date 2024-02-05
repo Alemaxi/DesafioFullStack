@@ -8,17 +8,17 @@ namespace DesafioFullStack.Domain.Entity
 {
     public class Equipamento
     {
-        public int Id { get; set; }
-        public string? NumeroSerie { get; set; }
-        public string? IMEI { get; set; }
-        public string? EnderecoHardware { get; set; }
-        public string? SimCard { get; set; }
-        public string? Operadora { get; set; }
-        public bool RedeAtiva { get; set; }
-        public bool MemoriaDoCartao { get; set; }
-        public int OrgaoGestorID { get; set; }
-        public int TipoEquipamentoID { get; set; }
-        public int FabricanteID { get; set; }
+        public virtual int Id { get; set; }
+        public virtual string? NumeroSerie { get; set; }
+        public virtual string? IMEI { get; set; }
+        public virtual string? EnderecoHardware { get; set; }
+        public virtual string? SimCard { get; set; }
+        public virtual string? Operadora { get; set; }
+        public virtual bool RedeAtiva { get; set; }
+        public virtual bool MemoriaDoCartao { get; set; }
+        public virtual int OrgaoGestorID { get; set; }
+        public virtual int TipoEquipamentoID { get; set; }
+        public virtual int FabricanteID { get; set; }
 
     }
 }

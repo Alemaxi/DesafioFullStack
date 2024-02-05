@@ -8,9 +8,9 @@ namespace DesafioFullStack.Domain.Entity
 {
     public class OrgaoGestor
     {
-        public int Id { get; set; }
-        public string? Nome { get; set; }
-        public string? Endereco { get; set; }
-        public string? Telefone { get; set; }
+        public virtual int Id { get; set; }
+        public virtual string? Nome { get; set; }
+        public virtual string? Endereco { get; set; }
+        public virtual string? Telefone { get; set; }
     }
 }

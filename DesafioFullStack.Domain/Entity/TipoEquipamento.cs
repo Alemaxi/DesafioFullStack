@@ -8,8 +8,8 @@ namespace DesafioFullStack.Domain.Entity
 {
     public class TipoEquipamento
     {
-        public int Id { get; set; }
-        public string? Nome { get; set; }
-        public object Descricao { get; set; }
+        public virtual int Id { get; set; }
+        public virtual string? Nome { get; set; }
+        public virtual object Descricao { get; set; }
     }
 }
